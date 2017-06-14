@@ -1,0 +1,12 @@
+   
+    .movies li {
+        display: inline;
+        margin: 20px;
+        
+    }
+    .movies img:hover{
+        border: 5px solid red;
+    }
+
+
+

@@ -1,0 +1,63 @@
+
+.sit li{
+    display: inline;
+    list-style-type: none;
+}
+
+.haveSit {
+
+    display: inline-block;
+    width:8%;
+    
+    cursor:pointer;
+    font-size:50px;
+    line-height:1;
+
+    margin-top:8px;
+    text-align:center;
+    margin:5px;
+    
+    
+}
+
+.havePeople{
+    border-radius:4px;
+    background-color: red;
+    
+}
+
+.noPeople{
+    border-radius:4px;
+    background-color: green;
+    
+}
+
+.notSit  {
+    display: inline-block;
+    width:8%;
+    margin-top:8px;
+    text-align:center;
+    background-color: gray;
+    margin:5px;
+    cursor:pointer;
+    font-size:50px;
+    line-height:1;
+    border-radius:4px;
+    
+}
+
+
+
+ul{
+
+    padding: 0px;
+}
+
+.location {
+
+    height: 100%;
+    border: 25px solid black;
+    border-radius: 6px;
+    background: black;
+}
+

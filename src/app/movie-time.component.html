@@ -1,0 +1,31 @@
+<div *ngIf="movieTime">
+  <div style="text-align:center">
+    <img width="300" height="400" src="{{movie.srcURL}}">
+  </div>
+
+  <div class="movieDetail">
+    <h2>{{movie.movieName}}</h2>
+    <h3 id="movieLevel">{{movie.movieLevel}}級</h3>
+    <h3>片長: {{movie.movieLong}}</h3>
+
+  </div>
+
+  <ul class="movieDate">
+    <li *ngFor="let date of movieTime.movieDate">
+      <HR>
+      <h3 class="date">{{date}}</h3>
+      <ul class="movieTime">
+        <li *ngFor="let time of movieTime.movieTime">
+          <span class="time" 
+            (click)="onSelect(date,time)"
+            (click)="gotoReserve()">{{time}}</span>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <div style="text-align:center">
+    <button (click)="goBack()">返回</button>
+  </div>
+</div>
+

@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+    button {
+      display: inline-block;
+      font-size: medium;
+      color: white;      
+      padding: 0.8em 0.8em 0.8em 0.8em;
+      background-color: #A0A0E6;
+      line-height: 1em;
+      position: relative;
+      border-radius: 4px 4px 4px 4px;
+      margin-top: 10px;
+    }
+
+    
+
+    body {
+      width:900px; 
+      margin-left:auto; 
+      margin-right:auto; 
+      text-align:left;
+    }

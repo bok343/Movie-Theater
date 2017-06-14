@@ -1,0 +1,15 @@
+<div *ngIf="movie">
+  <div style="text-align:center">
+    <img width="300" height="400" src="{{movie.srcURL}}">
+  </div>
+  <div style="text-align:center">
+    <h2>片名: {{movie.movieName}}</h2>
+    <label>片長： </label>{{movie.movieLong}}<br>
+    <label>級數： </label>{{movie.movieLevel}}<br>
+    <label>上映日期： </label>{{movie.movieStartDate}}<br>
+  </div>
+  <div style="text-align:center">
+    <button (click)="goBack()">返回</button>
+    <button (click)="gotoTime()">定位</button>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+  .movieDetail {
+    margin-left: 50px;
+
+  }
+
+
+    #movieLevel {
+      color: blue;
+    }
+
+    .movieDate  li {
+
+        margin-bottom: 20px;
+        padding: 0.8em 0.7em 0 0.7em;
+        list-style-type: none; 
+    }
+
+    .movieTime li{
+      display: inline;
+      margin: 20px;
+    }
+
+    .movieTime .time {
+      display: inline-block;
+      font-size: medium;
+      color: black;
+      padding: 0.8em 0.7em 0 0.7em;
+      background-color: #D8D8D8;
+      line-height: 1em;
+      position: relative;
+      left: -1px;
+      top: -4px;
+      height: 1.8em;
+      margin-right: .8em;
+      border-radius: 4px 0 0 4px;
+    }
+
+    .movieTime .time:hover {
+      color: white;
+      background-color: black;
+    }

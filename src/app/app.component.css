@@ -1,0 +1,50 @@
+
+.home {
+    display: inline-block;
+    font-size: medium;
+    color: white;
+    padding: 17px 20px 17px 20px;
+    background-color: #A0A0E6;
+    line-height: 1em;
+    position: relative;
+    border-radius: 4px 4px 4px 4px;
+    margin: 0 180px 0 180px;
+}
+
+.searchPerson {
+    display: inline-block;
+    font-size: medium;
+    color: white;
+    padding: 17px 20px 17px 20px;
+    background-color: #A0A0E6;
+    line-height: 1em;
+    position: relative;
+    border-radius: 4px 4px 4px 4px;
+    margin: 0 50px 0 180px;
+
+}
+
+.mainButton {
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.home:hover{
+    color: white;
+    background-color: #CBCBF0;
+}
+
+.searchPerson:hover{
+    color: white;
+    background-color: #CBCBF0;
+}
+
+.location {
+
+    height: 50px;
+    border: 4px solid #A0A0E6;
+    border-radius: 6px;
+    background: #A0A0E6;
+}
+

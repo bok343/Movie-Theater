@@ -1,0 +1,38 @@
+
+
+<div class="all" *ngIf="movieReserve" style="text-align:center">
+  <div style="text-align:center">
+    <img width="250" height="350" src="{{movie.srcURL}}">
+  </div>
+  <h3>{{movieReserve.movieDate}} {{movieReserve.movieTime}}</h3>
+
+  <div class="location" style="text-align:center">
+    <ul class="sit">
+      <li *ngFor="let sit of movieSits.sits; let i = index" [attr.data-index]="i">
+          <div *ngIf="getSit(sit)" class="haveSit" style="text-align:center">
+            <div *ngIf="havePeople(i)" class="havePeople">
+              <img >
+            </div>
+
+            <div *ngIf="!havePeople(i)" class="noPeople" (click)="reserve(i)">
+              <img >
+            </div>
+          </div>
+
+          <div *ngIf="!getSit(sit)" class="notSit" style="text-align:center">
+            <img >
+          </div>
+      </li>
+    </ul>
+  </div>
+  
+    <button (click)="goBack()">上一步</button>
+    <button >下一步</button>
+
+</div>
+
+
+
+
+
+

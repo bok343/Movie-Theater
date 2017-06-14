@@ -1,0 +1,13 @@
+<div style="text-align:center">
+  <h2>想看什麼電影</h2>
+</div>
+<ul class="movies">
+  <li *ngFor="let movie of movies" 
+    [class.selected]="movie === selectedMovie"
+    (click)="onSelect(movie)"
+    (click)="gotoDetail()">
+    
+    <span class="badge"><img width="150" height="200"  src="{{movie.srcURL}}"></span>
+    
+  </li>
+</ul>
